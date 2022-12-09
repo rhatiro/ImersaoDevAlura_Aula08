@@ -72,7 +72,7 @@ function sortearCarta() {
   console.log(cartaJogador);
 
   document.getElementById("btnSortear").disabled = true;
-  // document.getElementById("btnJogar").disabled = false;
+  document.getElementById("btnJogar").disabled = true;
 
   exibirCartaJogador();
   document.getElementById("form").scrollIntoView({ behavior: "smooth" });
@@ -114,7 +114,7 @@ function jogar() {
   document.getElementById("cartas").scrollIntoView({ behavior: "smooth" });
 
   divResultado.innerHTML +=
-    "<br/><button onclick='window.scroll(0,0); history.go(0)'>Jogar novamente</button>";
+    "<button onclick='window.scroll(0,0); history.go(0)'>Jogar novamente</button>";
 }
 
 function exibirCartaJogador() {
