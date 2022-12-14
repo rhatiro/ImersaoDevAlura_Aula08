@@ -1,5 +1,9 @@
 # SuperTrunfo - Cartas do jogo
 
+### Demonstração
+
+![](demo.gif)
+
 https://imersao.dev/aulas/aula08-supertrunfo-cartas
 
 ### Conteúdo detalhado desta aula:
